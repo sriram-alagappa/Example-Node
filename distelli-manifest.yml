@@ -12,7 +12,6 @@ sriram/nodeapp:
     - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
     - sudo apt-get -y install npm
-    - npm config set registry http://registry.npmjs.org/
     - npm install -g grunt
     - echo "--Building--"
     - sudo npm install
@@ -33,6 +32,7 @@ sriram/nodeapp:
     - echo "-Installing nodejs-"
     - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
+    - npm config set registry "http://registry.npmjs.org/"
     - sudo apt-get -y install npm
 
   PostInstall:

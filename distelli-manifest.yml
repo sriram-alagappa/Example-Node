@@ -12,6 +12,7 @@ sriram/nodeapp:
     - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
     - sudo apt-get -y install npm
+    - npm install -g grunt
     - echo "--Building--"
     - sudo npm install
     - echo "--Testing--"
